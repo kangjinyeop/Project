@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{ef029818-c5b5-4d36-b77a-ed3e4b97d0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Base">
+      <UniqueIdentifier>{bbe10159-1dea-4807-b5f8-ba744f71999d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component">
+      <UniqueIdentifier>{c215e04a-43d8-4aac-861c-523a63bfe3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.">
+      <UniqueIdentifier>{b02aaded-3925-4d1f-ac72-0e353f73eaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.">
+      <UniqueIdentifier>{902c5f7a-7801-4173-8788-32b7bd93144e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.">
+      <UniqueIdentifier>{25ad1076-20fe-4b9b-866b-7cfffb48f694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.">
+      <UniqueIdentifier>{f65f99e9-8ad5-4996-9732-79341fa2300e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.">
+      <UniqueIdentifier>{cf6c7aff-30fa-46a3-9a57-34aa9c32f787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.">
+      <UniqueIdentifier>{cbbe637c-e9cb-4d1d-bc6b-7dd0310e3f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.">
+      <UniqueIdentifier>{98ca37d6-80ac-477a-9be0-28764f69a6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.">
+      <UniqueIdentifier>{d19ed83c-2334-48a6-bef8-166f230e16ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.">
+      <UniqueIdentifier>{77ae2dc0-faec-4ae1-a4c3-28b2168c5a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.">
+      <UniqueIdentifier>{a39ea562-cf2d-48be-a454-4cd61e99f22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.">
+      <UniqueIdentifier>{14ff819c-8d6a-44bd-a24b-cc1b5cbeb752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.">
+      <UniqueIdentifier>{fa11dc1f-3457-4667-8cbf-ab2b45c643f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.">
+      <UniqueIdentifier>{761f0137-61ad-4387-a0ee-375db2da814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15.">
+      <UniqueIdentifier>{11274e3b-ca32-4e73-a757-599dc926e743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\00. Component">
+      <UniqueIdentifier>{4c1b67ae-9dc6-4e0b-9435-f3e6a7e3f337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\01. D3D9Transform">
+      <UniqueIdentifier>{d95709b1-d994-4497-a172-ee23ac862168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Component\02. D3D11Transform">
+      <UniqueIdentifier>{6ffa3dd4-a91a-486f-b0de-921cff88c25c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\Base.h">
+      <Filter>00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Component.h">
+      <Filter>01. Component\00. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\D3D9Transform.h">
+      <Filter>01. Component\01. D3D9Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\D3D11Transform.h">
+      <Filter>01. Component\02. D3D11Transform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Base.cpp">
+      <Filter>00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Component.cpp">
+      <Filter>01. Component\00. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\D3D9Transform.cpp">
+      <Filter>01. Component\01. D3D9Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\D3D11Transform.cpp">
+      <Filter>01. Component\02. D3D11Transform</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

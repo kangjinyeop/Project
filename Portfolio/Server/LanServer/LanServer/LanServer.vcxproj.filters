@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LanServer">
+      <UniqueIdentifier>{fd3f6ca4-40b7-45e1-a4d9-b093950b7dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{80d8aeb1-0b15-4e2f-ac5b-569f15c869ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Session">
+      <UniqueIdentifier>{f0882622-8fe7-49a6-8ee3-490d8201b3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\CrashDump">
+      <UniqueIdentifier>{59c87655-2621-42cc-bbfb-df7522d4a51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Log">
+      <UniqueIdentifier>{07d5825b-c2c9-49c3-ae0f-6ed0601b7aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\TextParser">
+      <UniqueIdentifier>{86ad1ca4-7064-4d31-a7ed-d692d71983b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\StreamBuffer">
+      <UniqueIdentifier>{080329e6-8dec-4f46-9d6f-a8f799801016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\RingBuffer">
+      <UniqueIdentifier>{60af29ec-0b33-4cbd-b475-93727bd80cae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LanServer.h">
+      <Filter>LanServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Macro.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_CrashDump.h">
+      <Filter>Library\CrashDump</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Log.h">
+      <Filter>Library\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_RingBuffer.h">
+      <Filter>Library\RingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_StreamBuffer.h">
+      <Filter>Library\StreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_TextParser.h">
+      <Filter>Library\TextParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Library\Library\Server_LockFreeMemoryPool.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Library\Library\Server_LockFreeQueue.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Library\Library\Server_LockFreeStack.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Library\Library\Server_MemoryPoolTLS.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Queue.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LanServer.cpp">
+      <Filter>LanServer</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_CrashDump.cpp">
+      <Filter>Library\CrashDump</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_Log.cpp">
+      <Filter>Library\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_RingBuffer.cpp">
+      <Filter>Library\RingBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_StreamBuffer.cpp">
+      <Filter>Library\StreamBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_TextParser.cpp">
+      <Filter>Library\TextParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Session</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Server_Log.inl">
+      <Filter>Library\Log</Filter>
+    </None>
+  </ItemGroup>
+</Project>

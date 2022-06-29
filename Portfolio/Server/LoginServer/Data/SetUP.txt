@@ -1,0 +1,16 @@
+"Network":
+{
+	"IP" : "192.168.10.13",
+	"Port" : 40000,
+	"WorkerThread" : 5,
+	"ActiveWorkerThread" : 5,
+	"SendThread" : 1,
+	"AuthThread" : 1,
+	"PacketCode" : 119,
+	"PacketKey" : 50,
+	"Client" : 5000,
+	"HeartBeat" : 40,
+	"KeepAliveOnOff" : 1,
+	"KeepAliveTime" : 1,
+	"KeepAliveInterval" : 1,
+},

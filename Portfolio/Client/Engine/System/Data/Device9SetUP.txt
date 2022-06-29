@@ -1,0 +1,6 @@
+"SetUP":
+{
+	"WindowMode" : "MODE_FULL",
+	"WindowSizeX" : 1280,
+	"WindowSizeY" : 720,
+},

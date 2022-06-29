@@ -1,0 +1,11 @@
+"SetUP":
+{
+	"DirectVersion" : 11,
+	"WindowMode" : "MODE_FULL",
+	"WindowSizeX" : 1280,
+	"WindowSizeY" : 720,
+	"Adapter" : "NULL",
+	"DriverType" : "Hardware",
+	"Software" : "NULL",
+	"Flags" : 5,
+},

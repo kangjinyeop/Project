@@ -1,0 +1,7 @@
+"Network":
+{
+	"IP" : "192.168.10.13",
+	"Port" : 40000,
+	"WorkerThread" : 5,
+	"ActiveWorkerThread" : 2,
+},

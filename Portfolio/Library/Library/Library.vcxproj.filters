@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1c3b75ca-5722-4f7e-aecf-f66292fdd835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{05b70e82-fb1e-4ee7-a93b-6b38c39fcd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{6d1df199-f05a-4d35-ac8a-e2e49434f58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TextParser">
+      <UniqueIdentifier>{c0dd5147-0543-4cce-ab94-8bf3df3272ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server_CrashDump.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Log.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_TextParser.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashDump.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="TextParser.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_CrashDump.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Log.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_TextParser.h">
+      <Filter>Engine\TextParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Macro.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Macro.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_RingBuffer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_StreamBuffer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_MemoryPoolTLS.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_LockFreeStack.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_LockFreeQueue.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_LockFreeMemoryPool.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Queue.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_CustomTime.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_CustomTime.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_BaseSeesion.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Library.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_CrashDump.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_Log.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_TextParser.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashDump.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="TextParser.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Log.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_CrashDump.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_TextParser.cpp">
+      <Filter>Engine\TextParser</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_RingBuffer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_StreamBuffer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_CustomTime.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_CustomTime.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_BaseSeesion.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Server_Log.inl">
+      <Filter>Server</Filter>
+    </None>
+    <None Include="Log.inl">
+      <Filter>Client</Filter>
+    </None>
+    <None Include="Engine_Log.inl">
+      <Filter>Engine</Filter>
+    </None>
+  </ItemGroup>
+</Project>

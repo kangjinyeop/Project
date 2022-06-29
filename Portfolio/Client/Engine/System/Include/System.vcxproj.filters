@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Export">
+      <UniqueIdentifier>{c10f7a4d-c403-4787-81af-162b54562393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{9aefd3be-5238-4b8a-b7ca-6d836919d535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DirectX9">
+      <UniqueIdentifier>{6d288919-3159-48b8-be61-38cfd2e4264c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DirectX9\00. Device9">
+      <UniqueIdentifier>{b26375c8-01fa-4ccf-b950-3795f3321d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DirectX9\01. Font">
+      <UniqueIdentifier>{40dfa54d-f56b-4428-a119-a3bfef097823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. DirectX9\02. Input">
+      <UniqueIdentifier>{7840bb98-0fa8-4166-bbf1-96dab38aef48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DirectX11">
+      <UniqueIdentifier>{532067db-776f-401c-870f-feef34bdd79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DirectX11\00. Device11">
+      <UniqueIdentifier>{82fce0ad-f2e0-4957-b227-0855e9a036be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DirectX11\01. Font">
+      <UniqueIdentifier>{519a144b-c94c-4856-929c-57405f4c5728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. DirectX11\02. Input">
+      <UniqueIdentifier>{e7c6b424-647c-443c-90e1-41dce5a121e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Time">
+      <UniqueIdentifier>{890e809d-facc-41af-8959-603abf2c49e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Frame">
+      <UniqueIdentifier>{33ec3bba-1b6d-406f-9fcc-7f05916801d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Random">
+      <UniqueIdentifier>{e3d1d212-4be1-410e-84d3-f57f5ac6e40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Console">
+      <UniqueIdentifier>{46e8b102-c50e-481b-9271-686f8e6836fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Network">
+      <UniqueIdentifier>{1e7d0352-648d-4a5d-b398-e2b77801321e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Log">
+      <UniqueIdentifier>{b710c7c4-0bad-42e0-bb81-d09fb03398ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. TextParser">
+      <UniqueIdentifier>{a5859c9d-9cba-4c41-8267-6629be2abbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. CrashDump">
+      <UniqueIdentifier>{b26e37a2-202a-4c15-affe-16500fd37602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Sound">
+      <UniqueIdentifier>{8d6b0817-1f8e-45d7-9404-da107b05502d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Random.h">
+      <Filter>04. Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Device11.h">
+      <Filter>01. DirectX11\00. Device11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Device9.h">
+      <Filter>00. DirectX9\00. Device9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MonitorConsole.h">
+      <Filter>06. Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ServerDefine.h">
+      <Filter>05. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\NetworkManager.h">
+      <Filter>05. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Engine_CrashDump.h">
+      <Filter>09. CrashDump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Engine_Log.h">
+      <Filter>07. Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Engine_TextParser.h">
+      <Filter>08. TextParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Frame.h">
+      <Filter>03. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sound.h">
+      <Filter>10. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SoundManager.h">
+      <Filter>10. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\D3D9Input.h">
+      <Filter>00. DirectX9\02. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\D3DFontManager.h">
+      <Filter>00. DirectX9\01. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\D3DFont.h">
+      <Filter>00. DirectX9\01. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FrameManager.h">
+      <Filter>03. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\CustomTimeManager.h">
+      <Filter>02. Time</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Random.cpp">
+      <Filter>04. Random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Device11.cpp">
+      <Filter>01. DirectX11\00. Device11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Device9.cpp">
+      <Filter>00. DirectX9\00. Device9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MonitorConsole.cpp">
+      <Filter>06. Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NetworkManager.cpp">
+      <Filter>05. Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Engine_CrashDump.cpp">
+      <Filter>09. CrashDump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Engine_Log.cpp">
+      <Filter>07. Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Engine_TextParser.cpp">
+      <Filter>08. TextParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>03. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sound.cpp">
+      <Filter>10. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SoundManager.cpp">
+      <Filter>10. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\D3D9Input.cpp">
+      <Filter>00. DirectX9\02. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\D3DFontManager.cpp">
+      <Filter>00. DirectX9\01. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\D3DFont.cpp">
+      <Filter>00. DirectX9\01. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FrameManager.cpp">
+      <Filter>03. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CustomTimeManager.cpp">
+      <Filter>02. Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Codes\Engine_Log.inl">
+      <Filter>07. Log</Filter>
+    </None>
+  </ItemGroup>
+</Project>
